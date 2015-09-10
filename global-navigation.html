@@ -23,6 +23,7 @@
         </ul>
         <ul class="right">
           <div class="global-desktop">
+			<!--role "menuitem" is for screen readers--> 
             <dd role="menuitem" class="active"><a href="#">TRACKER</a></dd>
             <dd role="menuitem"><a href="#">TAHOE</a></dd>
             <dd role="menuitem"><a href="#">NITRO</a></dd>
@@ -45,7 +46,7 @@
               <li role="menuitem"><a href="#">MAKO</a></li>
               <li role="menuitem"><a href="#">SUN TRACKER</a></li>
               <li role="menuitem"><a href="#">REGENCY</a></li>
-              <li role="menuitem"><a href="#">CEND</a></li>
+              <li role="menuitem"><a href="#">ASCEND</a></li>
             </ul>
           </div>
         </ul>
@@ -71,18 +72,17 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li class="active"><a href="#">Home</a></li>
+			  
+			<!-- BOAT DROPDOWN -->	 
+			  
             <li data-dropdown="drop2" aria-controls="drop1" aria-expanded="false">
               <a href="#">Boats</a>
               <ul id="drop2" class="mega f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-                <ul class="tabs" data-tab>
-                  <li class="tab-title active"><a href="#panel1">SERIES</a></li>
-                  <li class="tab-title"><a href="#panel2">MODELS</a></li>
-                </ul>
-                <div class="tabs-content">
-                  
+         
                   <!-- SERIES TAB -->
                   
-                  <div class="content active" id="panel1">
+                  <div class="series-tab">
+					  
                     <div class="columns medium-3">
                       <div class="series-block">
                         <img src="assets/img/boat-1.png" width="190">
@@ -165,28 +165,78 @@
                     </div>
                 </div>
                   
-                  <!-- MODEL TAB -->
+                <!-- MODEL TAB -->
                   
-                  <div class="content" id="panel2">
+                <div class="model-tab">
+					
                    <div class="columns medium-3">
-                      <div class="series-block">
+                      <div class="model-block">
                         <h5>MOD-V</h5>
                         <hr>
-                        <ul class="no-bullet">
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                          <li>PRO 160</li>
-                        </ul>
-                    </div>
-                  </div> 
+						  <ul class="no-bullet">
+							  <li>Pro 160 </li>
+							  <li>Pro 170</li>
+							  <li>Panfish 16</li>
+							  <li>Pro Team 175 TF</li>
+							  <li>Pro Team 175 TXW</li>
+							  <li>Pro Team 190 TX</li>
+							  <li>Why Mod-V?</li> 
+						  </ul>
+                      </div>
+                   </div> 
+				   <div class="columns medium-3">
+                      <div class="model-block">
+                        <h5>DEEP-V</h5>
+                        <hr>
+						  <ul class="no-bullet">
+							  <li>Pro 160 </li>
+							  <li>Pro 170</li>
+							  <li>Panfish 16</li>
+							  <li>Pro Team 175 TF</li>
+							  <li>Pro Team 175 TXW</li>
+							  <li>Pro Team 190 TX</li>
+							  <li>Why Mod-V?</li> 
+						  </ul>
+                      </div>
+                   </div> 
+				   <div class="columns medium-3">
+                      <div class="model-block">
+                        <h5>ALL WELDED JON</h5>
+                        <hr>
+						  <ul class="no-bullet">
+							  <li>Pro 160 </li>
+							  <li>Pro 170</li>
+							  <li>Panfish 16</li>
+							  <li>Pro Team 175 TF</li>
+							  <li>Pro Team 175 TXW</li>
+							  <li>Pro Team 190 TX</li>
+							  <li>Why Mod-V?</li> 
+						  </ul>
+                      </div>
+                   </div>
+				   <div class="columns medium-3">
+                      <div class="model-block">
+                        <h5>RIVITED JON</h5>
+                        <hr>
+						  <ul class="no-bullet">
+							  <li>Pro 160 </li>
+							  <li>Pro 170</li>
+							  <li>Panfish 16</li>
+							  <li>Pro Team 175 TF</li>
+							  <li>Pro Team 175 TXW</li>
+							  <li>Pro Team 190 TX</li>
+							  <li>Why Mod-V?</li> 
+						  </ul>
+                      </div>
+                   </div>
+					
+				</div>
                   
               </ul>
             </li>
+				
+		    <!-- SHOPPING TOOLS DROPDOWN -->	 
+				
             <li data-dropdown="drop3" aria-controls="drop1" aria-expanded="false">
               <a href="#">Shopping Tools</a>
               <ul id="drop3" class="mega f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
@@ -204,6 +254,9 @@
                 </div>
               </ul>
             </li>
+			  
+			<!--WHY TRACKER DROPDOWN -->			  
+			   
             <li class="has-dropdown">
               <a href="#">Why TRACKER?</a>
               <ul class="dropdown">
@@ -211,7 +264,13 @@
                 <li><a href="#">Active link in dropdown</a></li>
               </ul>
             </li>
+			  
+			<!--FIND A DEALER LINK -->
+			  
             <li><a href="#">Find A Dealer</a></li>
+			  
+			<!--OWNERS DROPDOWN -->
+			  
             <li class="has-dropdown">
               <a href="#">Owners</a>
               <ul class="dropdown">
@@ -223,8 +282,9 @@
         </section>
         
       </nav>
-    </div>
-	  
+	  </div> 
+	 
+	<!--This is for the bottom border for each brand -->  
     <div class="brand-border">
     </div>
 
