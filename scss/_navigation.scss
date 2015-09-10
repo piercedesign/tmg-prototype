@@ -1,0 +1,197 @@
+//-----------------IMPORT PARTIALS-DO NOT DELETE--------------------//
+
+  @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+     "foundation/components/button-groups",
+     "foundation/components/buttons",
+//   "foundation/components/clearing",
+     "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+     "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+     "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+     "foundation/components/type";
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+
+//-----------------GLOBAL-NAVIGATION--------------------//
+
+
+.sub-nav	{
+	background-color: $white-smoke;
+	padding-bottom: rem-calc(8);
+	margin-bottom: 0;
+	border-bottom: 1px solid #E7E7E7;
+	
+ 	dt {
+		text-transform: none;
+	}
+	.right {
+		padding-right: 20px;
+	}
+	ul {
+		margin-bottom: 0;
+		margin-left: 0;
+        font-size: 11px;
+	}
+	i	{
+		color: $primary-color;
+        padding-right: 10px;
+	}
+    dd  {
+      margin-left:.2rem;
+      .active a {
+      border-right: 1px solid #E7E7E7;
+      border-left: 1px solid #E7E7E7;
+      }
+    }
+    .f-dropdown  {
+      outline:none;
+      
+      li  {
+        margin-left: 0;
+        margin-right: 2rem;
+      }
+    }
+}
+
+.global-mobile {
+    > a  {
+      padding:10px 20px;
+      color:$jet;
+      background-color: $white;
+      border-right: 1px solid #E7E7E7;
+      border-left: 1px solid #E7E7E7;
+    }
+  .f-dropdown.content {
+    padding:.8rem;
+  }
+}
+
+
+@media #{$large-up} { 
+  .global-mobile  {
+    display: none;
+  }
+  .global-desktop {
+    display: block;
+  }
+}
+@media #{$small-only} {
+  .sub-nav {
+    display: none;
+  }
+}
+@media #{$medium-only} {
+  .global-desktop {
+    display: none;
+  }
+}
+
+//-----------------MAIN-NAVIGATION--------------------//
+
+
+
+.brand-border {
+	border-bottom: 4px solid $primary-color;
+}
+.top-bar  {
+    background: $white;
+}
+.top-bar-section .has-dropdown a:click  {
+  background-color: $primary-color;
+}
+.top-bar-mega .f-dropdown.content.open {
+    left: 0px !important;
+    max-width: none;
+}
+.top-bar-section .has-dropdown > a:after {
+    border-style: none;
+}
+.top-bar-section {
+      .f-dropdown  {
+      outline:none;
+      }
+      li  {
+        line-height: 4rem;
+      }
+
+}
+.tab-title  {
+  width:50%;
+  text-align: center;
+  line-height: 4rem;
+  height:auto;
+  float:none;
+  
+  .top-bar-section   {
+    padding:0px;
+    line-height: 3rem;
+    height:auto;
+  }
+  a {
+    height: 54px;
+    padding: 2px;
+    margin:0px;
+    line-height: 3.2rem !important; 
+  }
+}
+.series-block {
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left:20px;
+  padding-right: 20px;
+  
+  h5  {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  h4  {
+    line-height: .2;
+  }
+  h5 small {
+    padding-top:0px;
+    line-height: 0;
+  }
+  hr  {
+    margin-bottom:.8rem;
+    margin-top:1.8rem;
+  }
+}
+.series-block-info  {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.series-block:hover {
+    outline:2px solid #efefef;
+    outline-offset:-2px;
+}
+.f-dropdown > *:last-child  {
+  margin-bottom: 15px;
+}
+
