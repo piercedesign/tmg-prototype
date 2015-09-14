@@ -7924,7 +7924,7 @@ h6 {
 /* line 276, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #9c9c9c;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -9516,105 +9516,132 @@ th.hide-for-touch {
   line-height: 4rem;
 }
 
-/* line 151, ../scss/_navigation.scss */
-.tab-title {
+/* line 152, ../scss/_navigation.scss */
+.nav-dropdown .tab-title {
   width: 50%;
   text-align: center;
-  line-height: 4rem;
-  height: auto;
-  float: none;
 }
-/* line 158, ../scss/_navigation.scss */
-.tab-title a {
-  height: 54px;
-  padding: 2px;
-  margin: 0px;
-  line-height: 3.2rem !important;
+/* line 156, ../scss/_navigation.scss */
+.nav-dropdown .tab-title a {
+  background: #b51d2a;
+  color: #FFFFFF;
+  outline: none;
 }
-
-/* line 167, ../scss/_navigation.scss */
-.top-bar .f-dropdown > *:last-child {
-  margin-bottom: 15px;
-  margin-top: 15px;
+/* line 161, ../scss/_navigation.scss */
+.nav-dropdown .tab-title a:hover {
+  background: #D82332;
+  color: #FFFFFF;
 }
 
-/* line 175, ../scss/_navigation.scss */
+/* line 169, ../scss/_navigation.scss */
+.tabs .tab-title.active a {
+  background-color: #D82332;
+  color: #FFFFFF;
+}
+
+/* line 173, ../scss/_navigation.scss */
+.f-dropdown {
+  outline: none;
+  top: 70px;
+  margin-top: 0px;
+}
+
+/* line 181, ../scss/_navigation.scss */
 .series-block {
   padding: 20px;
 }
-/* line 178, ../scss/_navigation.scss */
+/* line 184, ../scss/_navigation.scss */
 .series-block h5 {
   font-size: 1rem;
   line-height: 1rem;
 }
-/* line 182, ../scss/_navigation.scss */
+/* line 188, ../scss/_navigation.scss */
 .series-block h4 {
   line-height: .2;
 }
-/* line 185, ../scss/_navigation.scss */
+/* line 191, ../scss/_navigation.scss */
 .series-block h5 small {
   padding-top: 0px;
   line-height: 0;
 }
-/* line 189, ../scss/_navigation.scss */
+/* line 195, ../scss/_navigation.scss */
 .series-block hr {
   margin-bottom: .8rem;
   margin-top: 1.8rem;
 }
-/* line 193, ../scss/_navigation.scss */
+/* line 199, ../scss/_navigation.scss */
 .series-block:hover {
   outline: 2px solid #efefef;
   outline-offset: -2px;
 }
 
-/* line 199, ../scss/_navigation.scss */
+/* line 205, ../scss/_navigation.scss */
 .model-block {
-  padding: 20px;
+  padding: 35px 20px 40px;
 }
-/* line 202, ../scss/_navigation.scss */
+/* line 208, ../scss/_navigation.scss */
 .model-block h5 {
   font-size: 1rem;
   line-height: 1rem;
 }
-/* line 206, ../scss/_navigation.scss */
+/* line 212, ../scss/_navigation.scss */
 .model-block h4 {
   line-height: .2;
 }
-/* line 209, ../scss/_navigation.scss */
+/* line 215, ../scss/_navigation.scss */
 .model-block h5 small {
   padding-top: 0px;
   line-height: 0;
 }
-/* line 213, ../scss/_navigation.scss */
+/* line 219, ../scss/_navigation.scss */
 .model-block hr {
   margin-bottom: .8rem;
   margin-top: 1.8rem;
 }
-/* line 217, ../scss/_navigation.scss */
+/* line 223, ../scss/_navigation.scss */
 .model-block li {
   width: 100%;
-  line-height: 2rem;
+  line-height: 2.2rem;
+}
+/* line 227, ../scss/_navigation.scss */
+.model-block li:hover {
+  color: blue;
+}
+/* line 231, ../scss/_navigation.scss */
+.model-block .nav-dd-icon {
+  margin: auto;
+  display: block;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/* line 237, ../scss/_navigation.scss */
+.model-block h5 {
+  text-align: center;
+}
+/* line 240, ../scss/_navigation.scss */
+.model-block .subheader {
+  font-size: 1em;
+  text-align: center;
 }
 
-/* line 224, ../scss/_navigation.scss */
+/* line 247, ../scss/_navigation.scss */
 .series-block-info {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-/* line 230, ../scss/_navigation.scss */
+/* line 253, ../scss/_navigation.scss */
 .tabs .tab-title .top-bar-section {
   background-color: #000;
 }
 
-/* line 232, ../scss/_navigation.scss */
-.series-tab {
-  padding-top: 20px;
+/* line 255, ../scss/_navigation.scss */
+.f-dropdown li a {
+  padding: 0px;
 }
 
 /* line 45, ../scss/app.scss */
-.brand-logo {
-  background-image: url("../assets/img/nitro.svg") no-repeat;
-  background-position: center 0;
-  width: 100%;
+.name {
+  padding-top: 25px;
+  padding-left: 20px;
 }
