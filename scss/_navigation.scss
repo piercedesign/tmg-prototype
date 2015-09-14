@@ -155,7 +155,7 @@
   line-height: 4rem;
   height:auto;
   float:none;
-	outline:none;
+  outline:none;
   
  	 a {
 		height: 54px;
@@ -170,6 +170,19 @@
   		margin-bottom: 15px;
 		margin-top:15px;
 	}
+}
+.tabs dd > a, .tabs .tab-title > a	{
+	background-color: darken($primary-color, 6%);
+	color: $white;
+	padding: 0px;
+	
+	&:hover	{
+		background-color: $primary-color;
+	}
+}
+.tabs dd.active a, .tabs .tab-title.active a	{
+	background-color: $primary-color;
+	color: $white;
 }
 
 //---SERIES BLOCK STYLES---//
@@ -241,12 +254,7 @@
 	outline: none;
 	margin-top: 0px;
 	
-	li a	{
-		outline:none;
-	}
-}
-.tabs	{
-	li	{
+	li a	{  // deletes default browser selected outline on tab
 		outline:none;
 	}
 }

@@ -9416,52 +9416,52 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 47, ../scss/_navigation.scss */
+/* line 48, ../scss/_navigation.scss */
 .sub-nav {
   background-color: #F5F5F5;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
   border-bottom: 1px solid #E7E7E7;
 }
-/* line 53, ../scss/_navigation.scss */
+/* line 54, ../scss/_navigation.scss */
 .sub-nav dt {
   text-transform: none;
 }
-/* line 56, ../scss/_navigation.scss */
+/* line 57, ../scss/_navigation.scss */
 .sub-nav .right {
   padding-right: 20px;
 }
-/* line 59, ../scss/_navigation.scss */
+/* line 60, ../scss/_navigation.scss */
 .sub-nav ul {
   margin-bottom: 0;
   margin-left: 0;
   font-size: 11px;
 }
-/* line 64, ../scss/_navigation.scss */
+/* line 65, ../scss/_navigation.scss */
 .sub-nav i {
   color: #D82332;
   padding-right: 10px;
 }
-/* line 68, ../scss/_navigation.scss */
+/* line 69, ../scss/_navigation.scss */
 .sub-nav dd {
   margin-left: .2rem;
 }
-/* line 70, ../scss/_navigation.scss */
+/* line 71, ../scss/_navigation.scss */
 .sub-nav dd .active a {
   border-right: 1px solid #E7E7E7;
   border-left: 1px solid #E7E7E7;
 }
-/* line 75, ../scss/_navigation.scss */
+/* line 76, ../scss/_navigation.scss */
 .sub-nav .f-dropdown {
   outline: none;
 }
-/* line 78, ../scss/_navigation.scss */
+/* line 79, ../scss/_navigation.scss */
 .sub-nav .f-dropdown li {
   margin-left: 0;
   margin-right: 2rem;
 }
 
-/* line 88, ../scss/_navigation.scss */
+/* line 89, ../scss/_navigation.scss */
 .global-mobile > a {
   padding: 10px 20px;
   color: #222222;
@@ -9469,175 +9469,176 @@ th.hide-for-touch {
   border-right: 1px solid #E7E7E7;
   border-left: 1px solid #E7E7E7;
 }
-/* line 95, ../scss/_navigation.scss */
+/* line 96, ../scss/_navigation.scss */
 .global-mobile .f-dropdown.content {
   padding: .8rem;
 }
 
 @media only screen and (min-width: 64.0625em) {
-  /* line 105, ../scss/_navigation.scss */
+  /* line 106, ../scss/_navigation.scss */
   .global-mobile {
     display: none;
   }
 
-  /* line 108, ../scss/_navigation.scss */
+  /* line 109, ../scss/_navigation.scss */
   .global-desktop {
     display: block;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 114, ../scss/_navigation.scss */
+  /* line 115, ../scss/_navigation.scss */
   .sub-nav {
     display: none;
   }
 }
 @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-  /* line 120, ../scss/_navigation.scss */
+  /* line 121, ../scss/_navigation.scss */
   .global-desktop {
     display: none;
   }
 }
-/* line 132, ../scss/_navigation.scss */
+/* line 133, ../scss/_navigation.scss */
 .brand-border {
   border-bottom: 4px solid #D82332;
 }
 
-/* line 136, ../scss/_navigation.scss */
+/* line 137, ../scss/_navigation.scss */
 .top-bar-section .has-dropdown > a:after {
   border-style: none;
 }
 
-/* line 141, ../scss/_navigation.scss */
+/* line 142, ../scss/_navigation.scss */
 .top-bar-section .f-dropdown {
   outline: none;
 }
-/* line 144, ../scss/_navigation.scss */
+/* line 145, ../scss/_navigation.scss */
 .top-bar-section li {
   line-height: 4rem;
 }
 
 /* line 152, ../scss/_navigation.scss */
-.nav-dropdown .tab-title {
+.tab-title {
   width: 50%;
   text-align: center;
-}
-/* line 156, ../scss/_navigation.scss */
-.nav-dropdown .tab-title a {
-  background: #b51d2a;
-  color: #FFFFFF;
+  line-height: 4rem;
+  height: auto;
+  float: none;
   outline: none;
 }
-/* line 161, ../scss/_navigation.scss */
-.nav-dropdown .tab-title a:hover {
-  background: #D82332;
-  color: #FFFFFF;
+/* line 160, ../scss/_navigation.scss */
+.tab-title a {
+  height: 54px;
+  padding: 2px;
+  margin: 0px;
+  line-height: 3.2rem !important;
 }
 
 /* line 169, ../scss/_navigation.scss */
-.tabs .tab-title.active a {
+.top-bar .f-dropdown > *:last-child {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* line 174, ../scss/_navigation.scss */
+.tabs dd > a, .tabs .tab-title > a {
+  background-color: #be1f2c;
+  color: #FFFFFF;
+  padding: 0px;
+}
+/* line 179, ../scss/_navigation.scss */
+.tabs dd > a:hover, .tabs .tab-title > a:hover {
+  background-color: #D82332;
+}
+
+/* line 183, ../scss/_navigation.scss */
+.tabs dd.active a, .tabs .tab-title.active a {
   background-color: #D82332;
   color: #FFFFFF;
 }
 
-/* line 173, ../scss/_navigation.scss */
-.f-dropdown {
-  outline: none;
-  top: 70px;
-  margin-top: 0px;
-}
-
-/* line 181, ../scss/_navigation.scss */
+/* line 190, ../scss/_navigation.scss */
 .series-block {
   padding: 20px;
 }
-/* line 184, ../scss/_navigation.scss */
+/* line 193, ../scss/_navigation.scss */
 .series-block h5 {
   font-size: 1rem;
   line-height: 1rem;
 }
-/* line 188, ../scss/_navigation.scss */
+/* line 197, ../scss/_navigation.scss */
 .series-block h4 {
   line-height: .2;
 }
-/* line 191, ../scss/_navigation.scss */
+/* line 200, ../scss/_navigation.scss */
 .series-block h5 small {
   padding-top: 0px;
   line-height: 0;
 }
-/* line 195, ../scss/_navigation.scss */
+/* line 204, ../scss/_navigation.scss */
 .series-block hr {
   margin-bottom: .8rem;
   margin-top: 1.8rem;
 }
-/* line 199, ../scss/_navigation.scss */
+/* line 208, ../scss/_navigation.scss */
 .series-block:hover {
   outline: 2px solid #efefef;
   outline-offset: -2px;
 }
 
-/* line 205, ../scss/_navigation.scss */
+/* line 214, ../scss/_navigation.scss */
 .model-block {
-  padding: 35px 20px 40px;
+  padding: 20px;
 }
-/* line 208, ../scss/_navigation.scss */
+/* line 217, ../scss/_navigation.scss */
 .model-block h5 {
   font-size: 1rem;
   line-height: 1rem;
 }
-/* line 212, ../scss/_navigation.scss */
+/* line 221, ../scss/_navigation.scss */
 .model-block h4 {
   line-height: .2;
 }
-/* line 215, ../scss/_navigation.scss */
+/* line 224, ../scss/_navigation.scss */
 .model-block h5 small {
   padding-top: 0px;
   line-height: 0;
 }
-/* line 219, ../scss/_navigation.scss */
+/* line 228, ../scss/_navigation.scss */
 .model-block hr {
   margin-bottom: .8rem;
   margin-top: 1.8rem;
 }
-/* line 223, ../scss/_navigation.scss */
+/* line 232, ../scss/_navigation.scss */
 .model-block li {
   width: 100%;
-  line-height: 2.2rem;
-}
-/* line 227, ../scss/_navigation.scss */
-.model-block li:hover {
-  color: blue;
-}
-/* line 231, ../scss/_navigation.scss */
-.model-block .nav-dd-icon {
-  margin: auto;
-  display: block;
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-/* line 237, ../scss/_navigation.scss */
-.model-block h5 {
-  text-align: center;
-}
-/* line 240, ../scss/_navigation.scss */
-.model-block .subheader {
-  font-size: 1em;
-  text-align: center;
+  line-height: 2rem;
 }
 
-/* line 247, ../scss/_navigation.scss */
+/* line 239, ../scss/_navigation.scss */
 .series-block-info {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-/* line 253, ../scss/_navigation.scss */
+/* line 245, ../scss/_navigation.scss */
 .tabs .tab-title .top-bar-section {
   background-color: #000;
+  outline: none;
 }
 
-/* line 255, ../scss/_navigation.scss */
+/* line 250, ../scss/_navigation.scss */
+.series-tab {
+  padding-top: 20px;
+}
+
+/* line 253, ../scss/_navigation.scss */
+.f-dropdown {
+  outline: none;
+  margin-top: 0px;
+}
+/* line 257, ../scss/_navigation.scss */
 .f-dropdown li a {
-  padding: 0px;
+  outline: none;
 }
 
 /* line 45, ../scss/app.scss */
