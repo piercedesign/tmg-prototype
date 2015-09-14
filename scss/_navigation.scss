@@ -155,6 +155,7 @@
   line-height: 4rem;
   height:auto;
   float:none;
+	outline:none;
   
  	 a {
 		height: 54px;
@@ -228,7 +229,24 @@
 }
 
 .tabs .tab-title	{
-	.top-bar-section {background-color: #000;}
+	.top-bar-section {
+		background-color: #000;
+		outline:none;
+	}
 }
 .series-tab	{
 	padding-top:20px;
+}
+.f-dropdown	{
+	outline: none;
+	margin-top: 0px;
+	
+	li a	{
+		outline:none;
+	}
+}
+.tabs	{
+	li	{
+		outline:none;
+	}
+}
